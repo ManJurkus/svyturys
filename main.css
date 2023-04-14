@@ -103,18 +103,24 @@ p{
     font-size: 10px;
 }
 
-.mainbutton {
-    display:flex;
-    flex-direction:row;
-    width: 90%;
-    height: 100px;
-    gap: 5%;
-    background-color: white;
+.mainbuttona {
+    
+    
+    display: flex;
+    padding: 20px;
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid white;
+    
    
 }
-.mainbuttona {
+.mainbuttonb {
     background-color: white;
-    bac
+    width: 90%;
+    height: 100px;
     
     
     
