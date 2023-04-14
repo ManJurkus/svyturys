@@ -1,0 +1,44 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aqua;
+}
+
+header,
+main {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px calc((100% - 800px) / 2);
+}
+
+header{
+    background-color: #303A43;
+    height: 0px;
+
+}
+
+.logo {
+
+}
+.nav{
+    display: flex;
+    gap: 10px;
+
+
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+ 
+}
+
+.navbotton{
+    display: inline-block;
+}
